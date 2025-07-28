@@ -1,0 +1,49 @@
+export default function GreenwashedForestSection() {
+    return (
+        <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] flex items-center justify-center text-white text-center">
+            <div className="w-full max-w-[1130px] flex flex-row">
+                <div className="w-1/2 p-6 text-left">
+                    <div className="w-[463px]">
+                        <p
+                            className="text-[16px] leading-[29px]"
+                            style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}
+                        >
+                            ป่าไม้กลายเป็นกลไก
+                        </p>
+                        <p
+                            className="text-[42px] leading-[100%] mb-5 mt-2"
+                            style={{ fontFamily: '"Chonburi", cursive' }}
+                        >
+                            เครื่องมือฟอกเขียว
+                        </p>
+                        <p
+                            className="text-[16px] leading-[32px] indent-8"
+                            style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}
+                        >
+                            คาร์บอนเครดิตขององค์กรหรือบริษัทบางแห่งโดยเฉพาะ
+                            การใช้ "ป่าสงวน “ป่าชุมชน” ซึ่งเป็นทรัพยากรส่วนรวมของ ประเทศมาใช้ทำโครงการคาร์บอนเครดิตโดยภาคเอกชนและ จัดสรรการแบ่งปันผลประโยชน์แบบเอารัดเอาเปรียบข้อมูลพื้นที่ป่า กรมป่าไม้ แสดงพื้นที่ป่าไม้ของประเทศไทยในระยะ 10 ปี (2556-2566) พบว่าลดลงไป 301,383.78 ไร่
+                        </p>
+                        <br></br>
+                        <p
+                            className="text-[16px] leading-[32px] indent-8"
+                            style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}
+                        >
+                            หากนำมาวิเคราะห์จากข้อมูลโครงการคาร์บอนเครดิต
+                            ภาคป่า ไม้ทั้ง 110 โครงการ มีถึง 32 โครงการที่ตั้งอยู่บนพื้นที่
+                            ป่าสงวนฯและป่าชุมชน ซึ่งเริ่มดำเนินการระหว่างปี
+                            2556-2557 รวมเนื้อที่ทั้งหมด 55,641ไร่ ซึ่งกลายเป็นประเด็น ที่ถูกจับตามองว่าระบบคาร์บอนเครดิตกำลังเปิดช่องให้กลุ่ม บริษัทและนายทุนใหญ่ใช้กลไกพิเศษบางอย่างเพื่อเข้าถึงสิทธิ การใช้ พื้นที่ป่า ซึ่งโดยหลักการแล้วควรอยู่ภายใต้ระบบการ
+                            จัดการที่เป็นธรรม โปร่งใสและยึดประโยชน์ของสาธารณะเป็นที่ตั้ง
+
+                        </p>
+                    </div>
+                </div>
+
+                <div className="w-1/2 p-6">
+                    <div className="w-full h-full bg-white/10 rounded-xl flex items-center justify-center">
+                        <span className="text-white/50">[กราฟ]</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
