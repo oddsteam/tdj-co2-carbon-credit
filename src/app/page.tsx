@@ -1,61 +1,67 @@
-import ThaiGHGSection from "./section/ThaiGHGSection"
-import HeroSection from "./section/HeroSection"
-import ConsequencesOfSection from "./section/ConsequencesOfSection"
-import CarbonForestSection from "./section/CarbonForestSection"
-import CarbonCreditPriceSection from "./section/CarbonCreditPriceSection"
-import GreenwashingTitle from "./section/GreenwashingTitle"
-import CarbonFactHighlight from "./section/CarbonFactHighlight"
-import GreenwashedForestSection from "./section/GreenwashedForestSection"
-import ForestCarbonFacts from "./section/ForestCarbonFacts"
-import ThaiCarbonCreditEUFailure from "./section/ThaiCarbonCreditEUFailure"
-import ForestAreaSection from "./section/ForestAreaSection"
-import QuoteBox1 from "./section/QuoteBox1"
-import QuoteBox2 from "./section/QuoteBox2"
-import ForestDataConfusion from "./section/ForestDataConfusion"
-import ForestDataConfusionDetail from "./section/ForestDataConfusionDetail"
-import WhoBenefit from "./section/WhoBenefit"
-import CarbonCreditScams from "./section/CarbonCreditScams"
-import WhoIsAffected from "./section/WhoIsAffected"
-import WhoIsAffectedDetail from "./section/WhoIsAffectedDetail"
-import QuoteBox3 from "./section/QuoteBox3"
-import ThailandClimateActSection from "./section/ThailandClimateActSection"
-import DraftClimateActSummary from "./section/DraftClimateActSummary"
-import ClimateDraftCompareSection from "./section/ClimateDraftCompareSection"
-import CallForActionSection from "./section/CallForActionSection"
-import SummarySection from "./section/SummarySection"
-import TowardsNetZeroThailand from "./section/TowardsNetZeroThailand"
-import ReferencesSection from "./section/ReferencesSection"
+import Section75 from "./ui/section-75"
+import Section76 from "./ui/section-76"
+import Section77 from "./ui/section-77"
+import Section43 from "./ui/section-43"
+import Section44 from "./ui/section-44"
+import Section45 from "./ui/section-45"
+import Section46 from "./ui/section-46"
+import Section48 from "./ui/section-48"
+import Section50 from "./ui/section-50"
+import Section51 from "./ui/section-51"
+import Section52 from "./ui/section-52"
+import Section54 from "./ui/section-54"
+import Section55 from "./ui/section-55"
+import Section56 from "./ui/section-56"
+import Section58 from "./ui/section-58"
+import Section60 from "./ui/section-60"
+import Section61 from "./ui/section-61"
+import Section63 from "./ui/section-63"
+import Section64 from "./ui/section-64"
+import Section66 from "./ui/section-66"
+import Section67 from "./ui/section-67"
+import Section69 from "./ui/section-69"
+import Section70 from "./ui/section-70"
+import Section71 from "./ui/section-71"
+import Section72 from "./ui/section-72"
+import Section79 from "./ui/section-79"
+import Section74 from "./ui/section-74"
+import Section80 from "./ui/section-80"
+import Section78 from "@/ui/section-78"
 
 export default function Home() {
   return (
     <main>
-      <HeroSection />
-      <ThaiGHGSection />
-      <ConsequencesOfSection />
-      <CarbonForestSection />
-      <CarbonCreditPriceSection />
-      <QuoteBox1 />
-      <GreenwashingTitle />
-      <CarbonFactHighlight />
-      <GreenwashedForestSection />
-      <ForestCarbonFacts />
-      <ThaiCarbonCreditEUFailure />
-      <ForestAreaSection />
-      <QuoteBox2 />
-      <ForestDataConfusion />
-      <ForestDataConfusionDetail />
-      <WhoBenefit />
-      <CarbonCreditScams />
-      <WhoIsAffected />
-      <WhoIsAffectedDetail />
-      <QuoteBox3 />
-      <ThailandClimateActSection />
-      <DraftClimateActSummary />
-      <ClimateDraftCompareSection />
-      <CallForActionSection />
-      <SummarySection />
-      <TowardsNetZeroThailand />
-      <ReferencesSection />
+      <Section75 />
+      <Section76 />
+      <Section77 />
+      <Section43 />
+      <Section44 />
+      <Section45 />
+      <Section46 />
+      <Section48 />
+      <Section50 />
+      <Section51 />
+      {/* TODO 81 */}
+      <Section52 />
+      <Section54 />
+      <Section55 />
+      <Section56 />
+      <Section58 />
+      <Section60 />
+      <Section61 />
+      {/* TODO 63 add image */}
+      <Section63 />
+      <Section64 />
+      <Section66 />
+      <Section67 />
+      <Section69 />
+      <Section70 />
+      <Section71 />
+      <Section72 />
+      <Section79 />
+      <Section74 />
+      <Section80 />
+      <Section78 />
     </main>
   )
 }

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function WhoBenefit() {
+export default function Section63() {
   return (
     <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] flex items-center justify-center text-white px-6 text-center">
       <div className="w-[80%] flex flex-col items-center space-y-10">

@@ -45,7 +45,7 @@ const cards: ModalContent[] = [
   },
 ];
 
-export default function WhoIsAffectedDetail() {
+export default function Section67() {
   const [openId, setOpenId] = useState<number | null>(null);
 
   const openModal = (id: number) => setOpenId(id);

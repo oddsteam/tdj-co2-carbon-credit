@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ThailandClimateActSection() {
+export default function Section71() {
   return (
     <section className="w-full min-h-[832px] bg-[#011F1F] text-white flex flex-col py-12">
 

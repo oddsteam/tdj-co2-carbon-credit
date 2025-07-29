@@ -1,4 +1,4 @@
-export default function CallForActionSection() {
+export default function Section79() {
     return (
         <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-6 px-6">
             <p

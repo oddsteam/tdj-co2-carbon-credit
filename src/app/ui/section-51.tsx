@@ -1,9 +1,9 @@
 import { ibm } from "@/fonts";
 import Image from "next/image";
 
-export default function CarbonFactHighlight() {
+export default function Section51() {
     return (
-        <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-6">
+        <section className="w-full md:h-screen sm:h-[100px] bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-6">
             <div className="w-[1130px] h-[384px] mx-auto bg-[#17332A] text-white px-10 py-8 rounded-tr-[100px] rounded-bl-[100px] flex">
                 <div className="w-[28%] flex flex-col justify-start text-left pt-5">
                     <p

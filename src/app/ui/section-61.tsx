@@ -9,13 +9,13 @@ const tabs = [
 ];
 
 
-export default function ForestDataConfusionDetail() {
+export default function Section61() {
   const [activeTab, setActiveTab] = useState("tab1");
 
   const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
 
   return (
-    <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] text-white px-8 flex flex-col items-center justify-center space-y-10">
+    <section className="w-full md:h-screen sm:h-[100px] bg-[#011F1F] text-white px-8 flex flex-col items-center justify-center space-y-10">
       <div className="max-w-[960px] text-left space-y-6">
         <p
           className="text-[16px] leading-[32px]"

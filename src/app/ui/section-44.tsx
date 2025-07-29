@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 
-export default function ConsequencesOfSection() {
+export default function Section44() {
   return (
     <section className="relative w-full min-h-screen overflow-hidden">
       <div className="absolute inset-0 z-0" style={{
@@ -17,7 +17,6 @@ export default function ConsequencesOfSection() {
         className="object-cover z-0"
 
       />
-
 
       <div className="relative z-10 max-w-4xl mx-auto mt-24 p-10 rounded-[50px] backdrop-blur-[62px] bg-black/40 text-white">
         <p className="text-sm text-gray-300">แท้จริงแล้ว</p>

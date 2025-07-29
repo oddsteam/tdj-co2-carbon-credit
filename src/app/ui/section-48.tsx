@@ -4,10 +4,10 @@ import { chonburi, ibm } from "@/fonts";
 import Image from "next/image";
 import { useState } from "react";
 
-export default function QuoteBox1() {
+export default function Section48() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <section className="bg-[#011F1F] w-full flex justify-center pb-20 px-4">
+        <section className="bg-[#011F1F] w-full h-[150vh] flex justify-center pb-20 px-4">
             <div className="w-full max-w-4xl">
 
                 <div className="flex items-center gap-4 mb-10">

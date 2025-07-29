@@ -10,16 +10,16 @@ const tabs = [
   { key: "tab3", label: "กราฟ3", flourishSrc: "visualisation/24426719" },
 ];
 
-export default function GHGChartTabs() {
+export default function Section43() {
   const [activeTab, setActiveTab] = useState("tab1");
 
   const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
 
   return (
-    <section className="bg-[linear-gradient(180deg,_#1C1B18_0%,_#393938_100%)] py-16 px-6 text-white">
+    <section className="bg-[linear-gradient(180deg,_#1C1B18_0%,_#393938_100%)] py-16 px-6 text-white h-screen">
       <div className="max-w-6xl mx-auto flex flex-col items-center">
         <div className="w-full max-w-2xl text-left">
-          <p className="font-ibm-looped text-[16px] leading-[29px]">ข้อมูล</p>
+          <p className="font-ibm-looped text-[16px] leading-[29px] pt-10">ข้อมูล</p>
           <h2 className={`${chonburi.className} text-[42px] leading-[100%]`}>
             สถิติย้อนหลัง
           </h2>

@@ -8,13 +8,13 @@ const tabs = [
     { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/23930763" },
 ];
 
-export default function GreenwashedForestSection() {
+export default function Section52() {
     const [activeTab, setActiveTab] = useState("tab1");
 
     const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
 
     return (
-        <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] flex items-center justify-center text-white text-center">
+        <section className="w-full md:h-screen sm:h-[100px] bg-[#011F1F] flex items-center justify-center text-white text-center">
             <div className="w-full max-w-[1130px] flex flex-row">
                 <div className="w-1/2 p-6 text-left">
                     <div className="w-[463px]">

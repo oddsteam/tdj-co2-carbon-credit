@@ -4,7 +4,7 @@ import { chonburi, ibm } from "@/fonts";
 import Image from "next/image";
 import { useState } from "react";
 
-export default function QuoteBox3() {
+export default function Section69() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <section className="bg-[#011F1F] w-full flex justify-center py-20 px-4">

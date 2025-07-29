@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ibm } from "@/fonts";
 
-export default function ReferencesSection() {
+export default function Section78() {
   return (
     <section className="w-full bg-[#103A3A] text-white md:h-[832px]"
      style={{

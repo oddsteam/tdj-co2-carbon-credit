@@ -1,4 +1,4 @@
-export default function TowardsNetZeroThailand() {
+export default function Section80() {
     return (
         <section
             className="w-full md:h-[832px] flex flex-col items-center justify-center text-center px-4"

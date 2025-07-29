@@ -10,7 +10,7 @@ const tabs = [
     { key: "tab3", label: "กราฟ3", flourishSrc: "visualisation/24089508" },
 ];
 
-export default function ForestAreaSection() {
+export default function Section56() {
     const [activeTab, setActiveTab] = useState("tab1");
 
     const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";

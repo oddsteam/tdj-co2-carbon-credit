@@ -1,9 +1,9 @@
 import { ibm } from "@/fonts";
 
-export default function HeroSection() {
+export default function Section75() {
   return (
-    <div>
-      <div className="relative w-full h-auto overflow-hidden">
+    <>
+      <section className="relative w-full md:h-screen overflow-hidden">
         <img
           src="/images/bg-forest.png"
           alt="Background"
@@ -29,26 +29,7 @@ export default function HeroSection() {
           alt="Ground"
           className="absolute bottom-0 w-full"
         />
-      </div>
-      <div className="relative w-full h-auto overflow-hidden">
-        <img
-          src="/images/hero-2.png"
-          alt="Background"
-          className="w-full h-screen"
-        />
-      </div>
-      <div className="relative w-full h-auto">
-        <img
-          src="/images/hero-3.png"
-          alt="Background"
-          className="w-full h-screen"
-        />
-        <img
-          src="/images/cloud-1.png"
-          alt="Ground left"
-          className="absolute -top-[20%] w-full"
-        />
-      </div>
-    </div>
+      </section>
+    </>
   );
 }

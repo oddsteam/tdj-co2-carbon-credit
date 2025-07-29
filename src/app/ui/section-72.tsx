@@ -1,4 +1,4 @@
-export default function ClimateDraftCompareSection() {
+export default function Section72() {
   return (
     <section className="w-full bg-[#011F1F] flex flex-col items-center justify-center text-white px-4 py-10 space-y-10">
       {/* Header */}

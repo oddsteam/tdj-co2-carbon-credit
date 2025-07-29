@@ -1,9 +1,9 @@
 import { chonburi, ibm } from "@/fonts";
 import Image from "next/image";
 
-export default function CarbonCreditPriceSection() {
+export default function Section46() {
     return (
-        <section className="bg-[#011F1F] w-full h-[1664px] text-white flex justify-center items-center">
+        <section className="bg-[#011F1F] w-full h-[200vh] text-white flex justify-center items-center">
             <div className="bg-[#344243] text-black rounded-[20px] w-[90%] h-[1048px] flex">
                 <div className="w-[27%] p-6 relative rounded-[20px]">
                     <Image

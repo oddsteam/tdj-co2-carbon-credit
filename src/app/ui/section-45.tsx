@@ -12,7 +12,7 @@ const tabs = [
   { key: "tab4", label: "กราฟ4", flourishSrc: "visualisation/23409488" },
 ];
 
-export default function CarbonForestTabs() {
+export default function Section45() {
   const [activeTab, setActiveTab] = useState("tab1");
 
   const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";

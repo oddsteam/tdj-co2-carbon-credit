@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function WhoIsAffected() {
+export default function Section66() {
     return (
         <section
             className="w-full md:h-[632px] sm:h-[100px] flex flex-col items-center justify-center text-white text-center space-y-4"

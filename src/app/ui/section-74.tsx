@@ -1,4 +1,4 @@
-export default function SummarySection() {
+export default function Section74() {
     return (
         <section
             className="w-full min-h-[832px] flex flex-col items-center justify-center text-black text-center space-y-6 px-4"
