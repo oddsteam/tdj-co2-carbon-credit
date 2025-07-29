@@ -1,5 +1,6 @@
 "use client";
 
+import FlourishEmbed from "@/components/Flourish";
 import { chonburi } from "@/fonts";
 import { useState } from "react";
 
@@ -145,6 +146,7 @@ export default function GHGChartTabs() {
             />
           ))}
         </div>
+        <FlourishEmbed src="visualisation/22534216" />
       </div>
     </section>
   );
