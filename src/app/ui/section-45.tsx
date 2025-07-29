@@ -24,7 +24,7 @@ export default function Section45() {
       }}>
 
       <div className="flex flex-col h-full">
-        <div className="bg-[#011F1F] text-white px-6 py-8 md:px-12 rounded-bl-[100px] rounded-tr-[100px] w-[90%] h-[194px] mx-auto">
+        <div className="bg-[#011F1F] text-white px-6 py-8 md:px-12 rounded-bl-[100px] rounded-tr-[100px] w-[90%] h-[175px] mx-auto">
           <div className="flex h-full items-center pl-20">
             <div className="flex flex-col md:flex-row justify-center gap-6 w-full">
               <div className="w-full md:w-2/6 text-lg md:text-xl">
@@ -45,9 +45,9 @@ export default function Section45() {
       </div>
 
       <div className="flex-[4] flex">
-        <div className="w-[90%] mx-auto flex flex-col md:flex-row gap-8 mt-20">
+        <div className="w-[90%] mx-auto flex flex-col md:flex-row gap-8 mt-4">
 
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 mt-16">
             <p className={`${ibm.className} text-[16px] leading-[29px] font-normal`}>ป่าไม้และพื้นที่สีเขียว หรือ</p>
             <h2 className={`${chonburi.className} text-[42px] leading-[100%] font-normal my-4`}>..ป่าคาร์บอน</h2>
             <div className="max-w-[437px]  w-full">
@@ -59,16 +59,14 @@ export default function Section45() {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 p-4 h-[400px] rounded text-black">
-            {/* <h3 className="font-semibold mb-2">กราฟแสดงข้อมูลโครงการ</h3> */}
-
+          <div className="w-full md:w-1/2 p-4 h-[550px] rounded text-black">
             <FlourishEmbed src={currentSrc} />
 
             <div className="flex justify-center gap-2 mt-6">
               {tabs.map(tab => (
                 <button
                   key={tab.key}
-                  className={`[width:99px] [height:17px] [border-radius:106px] [opacity:1] [transform:rotate(0deg)] transition-all ease-in-out cursor-pointer ${activeTab === tab.key ? "bg-[#E3E3E3]" : "bg-[#72A6AB]"}`}
+                  className={`[width:99px] [height:12px] [border-radius:106px] [opacity:1] [transform:rotate(0deg)] transition-all ease-in-out cursor-pointer ${activeTab === tab.key ? "bg-[#E3E3E3]" : "bg-[#72A6AB]"}`}
                   onClick={() => setActiveTab(tab.key)}
                   aria-label={tab.label}
                 />
