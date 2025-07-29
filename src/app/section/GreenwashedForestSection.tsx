@@ -1,4 +1,18 @@
+'use client';
+
+import FlourishEmbed from "@/components/Flourish";
+import { useState } from "react";
+
+const tabs = [
+    { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/23841371" },
+    { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/23930763" },
+];
+
 export default function GreenwashedForestSection() {
+    const [activeTab, setActiveTab] = useState("tab1");
+
+    const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
+
     return (
         <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] flex items-center justify-center text-white text-center">
             <div className="w-full max-w-[1130px] flex flex-row">
@@ -40,7 +54,17 @@ export default function GreenwashedForestSection() {
 
                 <div className="w-1/2 p-6">
                     <div className="w-full h-full bg-white/10 rounded-xl flex items-center justify-center">
-                        <span className="text-white/50">[กราฟ]</span>
+                        <FlourishEmbed src={currentSrc} />
+                    </div>
+                    <div className="flex justify-center gap-3 mt-6">
+                        {tabs.map(tab => (
+                            <button
+                                key={tab.key}
+                                className={`[width:99px] [height:17px] [border-radius:106px] [opacity:1] [transform:rotate(0deg)] transition-all ease-in-out cursor-pointer ${activeTab === tab.key ? "bg-[#E3E3E3]" : "bg-[#72A6AB]"}`}
+                                onClick={() => setActiveTab(tab.key)}
+                                aria-label={tab.label}
+                            />
+                        ))}
                     </div>
                 </div>
             </div>

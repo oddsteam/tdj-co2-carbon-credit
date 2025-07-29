@@ -1,6 +1,19 @@
-import Image from "next/image";
+'use client';
+import FlourishEmbed from "@/components/Flourish";
+import { useState } from "react";
+
+const tabs = [
+  { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/23910219" },
+  { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/23858198" },
+  { key: "tab3", label: "กราฟ3", flourishSrc: "visualisation/23858519" },
+];
+
 
 export default function ForestDataConfusionDetail() {
+  const [activeTab, setActiveTab] = useState("tab1");
+
+  const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
+
   return (
     <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] text-white px-8 flex flex-col items-center justify-center space-y-10">
       <div className="max-w-[960px] text-left space-y-6">
@@ -16,21 +29,20 @@ export default function ForestDataConfusionDetail() {
           และวัดผลความสำเร็จด้านสิ่งแวดล้อมของประเทศ
         </p>
 
-
-        <div className="flex justify-center items-center gap-12 bg-white">
-
-          <Image
-            src="/images/forest-data-chart.png"
-            alt="forest data chart"
-            width={400}
-            height={300}
-          />
-
-
-          
+        <div className="w-full h-[600px] bg-white/10 rounded-xl flex items-center justify-center">
+          <FlourishEmbed src={currentSrc} />
+        </div>
+        <div className="flex justify-center gap-3 mt-6">
+          {tabs.map(tab => (
+            <button
+              key={tab.key}
+              className={`[width:99px] [height:17px] [border-radius:106px] [opacity:1] [transform:rotate(0deg)] transition-all ease-in-out cursor-pointer ${activeTab === tab.key ? "bg-[#E3E3E3]" : "bg-[#72A6AB]"}`}
+              onClick={() => setActiveTab(tab.key)}
+              aria-label={tab.label}
+            />
+          ))}
         </div>
 
-        {/* ข้อความล่าง */}
         <p
           className="text-[16px] leading-[32px]"
           style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}

@@ -1,36 +1,37 @@
-// components/FlourishEmbed.tsx
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 interface FlourishEmbedProps {
   src: string; // ตัวอย่าง: "visualisation/22534216"
 }
 
 export default function FlourishEmbed({ src }: FlourishEmbedProps) {
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    const scriptId = 'flourish-embed-script';
-    if (!document.getElementById(scriptId)) {
-      const script = document.createElement('script');
-      script.src = 'https://public.flourish.studio/resources/embed.js';
-      script.id = scriptId;
-      script.async = true;
-      document.body.appendChild(script);
-    }
-  }, []);
+    setLoading(true);
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, [src]);
 
   return (
-    <div
-      className="flourish-embed flourish-chart w-full"
-      data-src={src}
-    >
-      <noscript>
-        <img
-          src={`https://public.flourish.studio/${src}/thumbnail`}
-          width="100%"
-          alt="chart visualization"
+    <div className="w-full h-full flex items-center justify-center relative">
+      {loading ? (
+        <div className="flex items-center justify-center">
+          <div className="w-10 h-10 border-4 border-white border-t-transparent rounded-full animate-spin" />
+        </div>
+      ) : (
+        <iframe
+          title="Flourish chart"
+          src={`https://public.flourish.studio/${src}/embed`}
+          className="w-full h-full border-0"
+          loading="lazy"
         />
-      </noscript>
+      )}
     </div>
   );
 }
