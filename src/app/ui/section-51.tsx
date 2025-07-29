@@ -22,24 +22,14 @@ export default function Section51() {
 
                 {/* ขวา 70% */}
                 <div className="w-[72%] flex flex-col pl-10 text-left pt-15">
-                    <div className="text-sm leading-7">
-                        <p
-                            className="text-[16px] leading-[29px]"
-                            style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}
-                        >
-                            บริษัทข้ามชาติ .... ใช้ชื่อไทยแปลง + ซ่อลรายการปล่อยก๊าซเรือนกระจก
+                    <div className="text-sm leading-7 text-[16px] leading-[29px]" style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}>
+                        <p>
+                            บริษัทในตลาดหลักทรัพย์เพียง 63 บริษัท ในปี 2567 และ ปี 2568 (30 เมษายน) เพียง 245 บริษัท จากทั้งหมด 922 บริษัทที่ยอมเปิดข้อมูลปล่อยก๊าซเรือนกระจก
                         </p>
-
-
-                        <p
-                            className="text-[16px] leading-[29px]"
-                            style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}>นายทุนใหญ่ ... สับ สวม พราง ข้อมูลซื้อขาย “คาร์บอนเครดิต” (Carbon Credit) อย่างไร</p>
-                        <p
-                            className="text-[16px] leading-[29px]"
-                            style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}>นายทุน รู้หรือไม่...... “คาร์บอนเครดิตไทย ไม่ผ่านเกณฑ์ EU” บาร์เรลราคาแพง ต้นทุนมาถึงไทยแลนด์...</p>
-                        <p
-                            className="text-[16px] leading-[29px]"
-                            style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}>กำลังโดนเก็บ “ภาษีคาร์บอนข้ามพรมแดน” ฉบับแรกของโลกจากอียู (CBAM)</p>
+                        <p>บริษัทยักษ์  ....  ใช้วิธีไหนลด + ชดเชยการปล่อยก๊าซเรือนกระจก</p>
+                        <p>นายทุนใหญ่ ...  ลับ ลวง พราง ข้อมูลซื้อขาย”คาร์บอนเครดิต” (Carbon Credit) อย่างไร</p>
+                        <p>ไทยแลนด์...   กำลังโดนเก็บ “ภาษีคาร์บอนข้ามพรมแดน” ฉบับแรกของโลกจากอียู (CBAM)</p>
+                        <p>นายทุน รู้หรือไม่......“คาร์บอนเครดิตไทย “ ไม่ผ่านเกณฑ์ EU บทเรียนราคาแพง ต้นทุนจมดิ่ง</p>
                     </div>
 
                     <div className="flex justify-between items-start mt-10">
