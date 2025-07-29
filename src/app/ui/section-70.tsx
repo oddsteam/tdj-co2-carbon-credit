@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Section70() {
   return (
-    <section className="w-full min-h-[832px] bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-6">
+    <section className="w-full min-h-[832px] bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-6 pt-16">
       <p
         className="text-[42px] leading-[100%] text-center"
         style={{ fontFamily: '"Chonburi", cursive' }}

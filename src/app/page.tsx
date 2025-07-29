@@ -27,6 +27,8 @@ import Section79 from "./ui/section-79"
 import Section74 from "./ui/section-74"
 import Section80 from "./ui/section-80"
 import Section78 from "@/ui/section-78"
+import SectionCBAM from "./ui/section-cbam"
+import Section81 from "./ui/section-81"
 
 export default function Home() {
   return (
@@ -41,20 +43,21 @@ export default function Home() {
       <Section48 />
       <Section50 />
       <Section51 />
-      {/* TODO 81 */}
       <Section52 />
       <Section54 />
+      <SectionCBAM />
       <Section55 />
       <Section56 />
       <Section58 />
+      <Section81 />
       <Section60 />
       <Section61 />
       {/* TODO 63 add image */}
       <Section63 />
-      <Section64 />
       <Section66 />
       <Section67 />
       <Section69 />
+      <Section64 />
       <Section70 />
       <Section71 />
       <Section72 />

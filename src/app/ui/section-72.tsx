@@ -1,14 +1,10 @@
 export default function Section72() {
   return (
-    <section className="w-full bg-[#011F1F] flex flex-col items-center justify-center text-white px-4 py-10 space-y-10">
+    <section className="w-full min-screen bg-[#011F1F] flex flex-col items-center justify-center text-white px-4 py-10 space-y-10">
       {/* Header */}
       <div className="w-full flex flex-col items-center justify-center text-center space-y-4">
         <div className="flex items-center gap-4 justify-center">
-          <img
-            src="/images/department-of-climate-change.png"
-            alt="climate logo"
-            className="w-[186px] h-[186px] object-contain"
-          />
+          
           <div className="flex flex-col leading-[46px] text-left">
             <span
               className="text-white text-[20px] font-bold"
