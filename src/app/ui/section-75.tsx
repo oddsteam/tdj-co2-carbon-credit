@@ -13,7 +13,7 @@ export default function Section75() {
         <div className={`${ibm.className} absolute top-[45%] left-[17%] text-white leading-[100%] text-left`}>
           <div className="text-[44px] font-medium">เจาะ Open Data</div>
           <div className="font-bold mt-12">
-            <span className="text-[54px]">"เปิด 3 มายาก๊าซเรือนกระจก"</span>
+            <span className="text-[54px]">"เปิด 3 มายากลก๊าซเรือนกระจก"</span>
             {/* <span className="text-[86px]">“ทุนใหญ่”</span> */}
           </div>
         </div>
