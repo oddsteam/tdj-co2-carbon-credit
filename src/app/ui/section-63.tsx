@@ -2,34 +2,32 @@ import Image from "next/image";
 
 export default function Section63() {
   return (
-    <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] flex items-center justify-center text-white px-6 text-center">
-      <div className="w-[80%] flex flex-col items-center space-y-10">
-        {/* Header */}
+    <section className="w-full md:h-[832px] bg-[#011F1F] flex flex-col items-center justify-center text-white px-6 text-center">
+      {/* h2 ชิดซ้าย */}
+      <div className="w-[70%] text-left mb-10">
         <h2
           className="text-[42px] leading-[45px]"
           style={{ fontFamily: '"Chonburi", cursive' }}
         >
           ใครได้ผลประโยชน์ ?
         </h2>
+      </div>
 
-        {/* คำพูด + รูปเกษตรกร */}
-        <div className="relative w-full max-w-[1130px]">
-          <div className="absolute right-0 -top-20">
-            <div className="bg-[#3C5A78] text-white px-4 py-2 rounded-xl mb-2 text-sm inline-block">
-              “ปลูกแทบตาย ได้แค่น้ำใจ”
-            </div>
+      {/* กล่องเนื้อหาตรงกลาง */}
+      <div className="w-[70%] flex flex-col items-center space-y-10">
+        {/* กราฟ + รูปชาวนา */}
+        <div className="relative w-full">
+
+          <div className="absolute right-0 z-10"
+            style={{ transform: 'translateY(-100%)' }}>
             <Image
-              src="/images/farmer.png"
+              src="/images/farmer-pain.png"
               alt="farmer"
-              width={160}
-              height={160}
+              width={400}
+              height={400}
             />
           </div>
-        </div>
-
-        {/* แถบกราฟ 70/20/10 */}
-        <div className="w-full max-w-[700px] text-sm">
-          <div className="flex h-[50px] w-full text-white text-center font-semibold">
+          <div className="flex h-[100px] w-full text-white text-center font-semibold relative z-0">
             <div className="bg-[#24A148] w-[70%] flex items-center justify-center">
               เอกชน<br />70%
             </div>
@@ -38,10 +36,11 @@ export default function Section63() {
             </div>
             <div className="bg-[#C25B00] w-[10%] flex items-center justify-center">
               รัฐ<br />10%
+
             </div>
           </div>
 
-          <div className="mt-4 flex h-[50px] w-full text-white text-center font-semibold">
+          <div className="mt-4 flex h-[100px] w-full text-white text-center font-semibold">
             <div className="bg-[#24A148] w-[90%] flex items-center justify-center">
               เอกชน<br />90%
             </div>
