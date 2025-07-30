@@ -50,7 +50,7 @@ export default function Section67() {
   const closeModal = () => setOpenId(null);
 
   return (
-    <section className="w-full bg-[#393938] flex flex-col items-center justify-center text-white py-16 px-4">
+    <section className="w-full h-screen bg-[#393938] flex flex-col items-center justify-center text-white py-16 px-4 snap-start">
       <div className="w-[80%] grid md:grid-cols-2 gap-8">
         {cards.map((card) => (
           <div

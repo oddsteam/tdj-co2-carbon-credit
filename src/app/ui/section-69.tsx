@@ -8,7 +8,7 @@ export default function Section69() {
     const [open, setOpen] = useState(false);
 
     return (
-        <section className="bg-[#011F1F] w-full h-screen flex justify-center py-20 px-4">
+        <section className="bg-[#011F1F] w-full h-screen flex justify-center py-20 px-4 snap-start">
             <div className="w-full max-w-4xl">
 
                 <div className="flex items-center gap-4 mb-10">

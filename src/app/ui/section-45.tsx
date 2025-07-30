@@ -18,12 +18,12 @@ export default function Section45() {
   const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
 
   return (
-    <section className="w-full min-h-screen overflow-hidden text-white py-12 px-4"
+    <section className="w-full h-screen overflow-hidden text-white py-6 px-4 snap-start"
       style={{
         background: `linear-gradient(0deg, #00201F 8.05%, #9F9F9C 132.87%)`,
       }}>
 
-      <div className="flex flex-col h-full">
+      <div className="flex flex-col">
         <div className="bg-[#011F1F] text-white px-6 py-8 md:px-12 rounded-bl-[100px] rounded-tr-[100px] w-[90%] h-[175px] mx-auto">
           <div className="flex h-full items-center pl-20">
             <div className="flex flex-col md:flex-row justify-center gap-6 w-full">

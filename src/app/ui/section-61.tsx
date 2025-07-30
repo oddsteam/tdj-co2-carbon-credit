@@ -15,7 +15,7 @@ export default function Section61() {
   const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
 
   return (
-    <section className="w-full md:h-[130vx] bg-[#011F1F] text-white px-8 flex flex-col items-center justify-center space-y-10">
+    <section className="w-full md:h-[130vx] bg-[#011F1F] text-white px-8 flex flex-col items-center justify-center space-y-10 snap-start">
       <div className="max-w-[960px] text-left space-y-6">
         <p
           className="text-[16px] leading-[32px]"

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Section71() {
   return (
-    <section className="w-full min-h-[832px] bg-[#011F1F] text-white flex flex-col py-12">
+    <section className="w-full h-[130vh] bg-[#011F1F] text-white flex flex-col py-12 snap-start overflow-visible">
 
       <div className="basis-[30%] flex flex-col items-center justify-center gap-4 md:min-h-[300px] mb-12">
         <p
@@ -35,7 +35,7 @@ export default function Section71() {
           {/* Card 1 */}
           <div className="w-full bg-[#344243] rounded-[20px] p-4 flex flex-col items-start gap-4">
             <div className="w-[78px] h-[46px] rounded-full bg-[#66BFA3] flex items-center justify-center text-black text-lg font-bold">
-              1.
+              1
             </div>
             <p className="text-[#3ED304] font-semibold" style={{ fontFamily: '"IBM Plex Sans Thai", sans-serif' }}>
               กำหนดเป้าหมาย Net Zero ปี 2608<br /> และ Carbon Neutrality ปี 2593
@@ -56,7 +56,7 @@ export default function Section71() {
           {/* Card 2 */}
           <div className="w-full bg-[#344243] rounded-[20px] p-4 flex flex-col items-start gap-4">
             <div className="w-[78px] h-[46px] rounded-full bg-[#66BFA3] flex items-center justify-center text-black text-lg font-bold">
-              2.
+              2
             </div>
             <p className="text-[#3ED304] font-semibold" style={{ fontFamily: '"IBM Plex Sans Thai", sans-serif' }}>
               ระบบภาษีคาร์บอนและกลไกการซื้อขายสิทธิปล่อยก๊าซ (ETS)
@@ -72,7 +72,7 @@ export default function Section71() {
           {/* Card 3 */}
           <div className="w-full bg-[#344243] rounded-[20px] p-4 flex flex-col items-start gap-4">
             <div className="w-[78px] h-[46px] rounded-full bg-[#66BFA3] flex items-center justify-center text-black text-lg font-bold">
-              3.
+              3
             </div>
             <p className="text-[#3ED304] font-semibold" style={{ fontFamily: '"IBM Plex Sans Thai", sans-serif' }}>
               บทลงโทษเข้มข้นกับธุรกิจที่ฝ่าฝืน
@@ -85,7 +85,7 @@ export default function Section71() {
           {/* Card 4 */}
           <div className="w-full bg-[#344243] rounded-[20px] p-4 flex flex-col items-start gap-4">
             <div className="w-[78px] h-[46px] rounded-full bg-[#66BFA3] flex items-center justify-center text-black text-lg font-bold">
-              4.
+              4
             </div>
             <p className="text-[#3ED304] font-semibold" style={{ fontFamily: '"IBM Plex Sans Thai", sans-serif' }}>
               กองทุนภูมิอากาศ
@@ -99,7 +99,7 @@ export default function Section71() {
           {/* Card 5 */}
           <div className="w-full bg-[#344243] rounded-[20px] p-4 flex flex-col items-start gap-4">
             <div className="w-[78px] h-[46px] rounded-full bg-[#66BFA3] flex items-center justify-center text-black text-lg font-bold">
-              5.
+              5
             </div>
             <p className="text-[#3ED304] font-semibold" style={{ fontFamily: '"IBM Plex Sans Thai", sans-serif' }}>
               แผนปรับตัวรับมือภัยพิบัติ
@@ -110,17 +110,14 @@ export default function Section71() {
           </div>
         </div>
 
-        <div className="w-1/3 flex items-center justify-center rounded-xl overflow-visible">
-          <div className="absolute">
-            <Image
-              src="/images/golden-balance-scale.png"
-              alt="justice scale"
-              width={676}
-              height={738}
-
-              className="object-contain w-full max-w-[600px]"
-            />
-          </div>
+        <div className="w-1/3 relative flex items-center justify-center rounded-xl overflow-visible">
+          <Image
+            src="/images/golden-balance-scale.png"
+            alt="justice scale"
+            width={676}
+            height={738}
+            className="object-contain max-w-[600px] absolute -top-10 -right-10"
+          />
         </div>
       </div>
     </section>

@@ -40,7 +40,7 @@ export default function SectionForestChart() {
   );
 
   return (
-    <section className="w-full md:h-screen bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-10 px-4">
+    <section className="w-full h-screen bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-10 px-4 snap-start">
       <p
         className={`${ibm.className} font-bold text-[46px] leading-[100%] tracking-[-1%]`}
       >

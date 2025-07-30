@@ -1,6 +1,6 @@
 export default function Section79() {
     return (
-        <section className="w-full md:h-[832px] sm:h-[100px] bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-6 px-6">
+        <section className="w-full h-screen bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-6 px-6 snap-start">
             <p
                 className="text-[20px] leading-[100%]"
                 style={{ fontFamily: '"Chonburi", cursive' }}

@@ -15,15 +15,15 @@ export default function Section56() {
 
     const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
     return (
-        <section className="w-full md:h-screen sm:h-[100px] bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-6 pb-10">
-            <div className="flex-0 h-[40%] flex items-center justify-center">
-                <div className="w-[1112px] h-[241px] bg-[#17332A] rounded-tr-[100px] rounded-bl-[100px] mx-auto flex flex-col md:flex-row justify-center px-10 py-8">
+        <section className="w-full h-screen bg-[#011F1F] flex flex-col items-center justify-around text-white text-center space-y-6 snap-start">
+            <div className="flex-0 h-[30%] flex items-center justify-center">
+                <div className="w-[1112px] h-[220px] bg-[#17332A] rounded-tr-[100px] rounded-bl-[100px] mx-auto flex flex-col md:flex-row justify-center px-10 py-4">
                     <div className="w-full md:w-2/6 text-lg md:text-xl text-left ">
                         <div className={`mb-1 ${ibm.className} text-[16px] leading-[29px] font-normal`}>คนไทย</div>
                         <div className={`${chonburi.className} text-[42px] leading-[100%] font-normal`}>รู้ไหมว่า ?</div>
                     </div>
 
-                    <div className="w-full md:w-4/6 text-sm md:text-base leading-relaxed pt-10">
+                    <div className="w-full md:w-4/6 text-sm md:text-base leading-relaxed pt-6">
                         <div className="text-sm leading-7">
                             <ul
                                 className="text-[16px] leading-[29px] text-left list-disc pl-6"
@@ -40,12 +40,12 @@ export default function Section56() {
                 </div>
             </div>
 
-            <div className="flex-0 flex items-center justify-center text-left mt-10">
-                <div className="w-[532px] h-[331px] mx-auto">
+            <div className="flex-0 flex items-center justify-center">
+                <div className="w-[532px]  mx-auto">
                     <div className="w-full max-w-2xl p-4 text-black shadow">
-                        <div className="w-full h-[400px]">
+                        <div className="w-full h-[450px]">
                             <FlourishEmbed src={currentSrc} />
-                            <div className="flex justify-center gap-2 mt-6">
+                            <div className="flex justify-center gap-2 mt-3">
                                 {tabs.map(tab => (
                                     <button
                                         key={tab.key}

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Section44() {
   return (
-    <section className="relative w-full min-h-screen overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden snap-start">
       <div className="absolute inset-0 z-0" style={{
         background: `linear-gradient(180deg, #393938 36.66%, #727D7A 100%)`,
       }} />

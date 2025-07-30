@@ -1,6 +1,6 @@
 export default function Section72() {
   return (
-    <section className="w-full min-screen bg-[#011F1F] flex flex-col items-center justify-center text-white px-4 py-10 space-y-10">
+    <section className="w-full h-screen bg-[#011F1F] flex flex-col items-center justify-center text-white px-4 py-10 space-y-10 snap-start">
       {/* Header */}
       <div className="w-full flex flex-col items-center justify-center text-center space-y-4">
         <div className="flex items-center gap-4 justify-center">
@@ -25,7 +25,7 @@ export default function Section72() {
       {/* Comparison Table */}
       <div className="grid grid-cols-2 gap-6">
         {/* หน่วยงานรัฐ */}
-        <div className="w-[548px] h-[650-px] bg-[#2B3333] rounded-[30px] p-6 space-y-4">
+        <div className="w-[548px] bg-[#2B3333] rounded-[30px] p-6 space-y-4">
           <h3 className="text-[#66FF00] text-[32px] font-bold leading-none" style={{ fontFamily: '"IBM Plex Sans Thai", sans-serif' }}>
             หน่วยงานรัฐ
           </h3>
@@ -50,7 +50,7 @@ export default function Section72() {
         </div>
 
         {/* ประชาชน */}
-        <div className="w-[548px] h-[659px] bg-[#2B3333] rounded-[30px] p-6 space-y-4">
+        <div className="w-[548px] bg-[#2B3333] rounded-[30px] p-6 space-y-4">
           <h3 className="text-[#66FF00] text-[32px] font-bold leading-none" style={{ fontFamily: '"IBM Plex Sans Thai", sans-serif' }}>
             ประชาชน
           </h3>

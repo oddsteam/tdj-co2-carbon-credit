@@ -32,7 +32,9 @@ import Section81 from "./ui/section-81"
 
 export default function Home() {
   return (
-    <main>
+    // <main className="h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
+    <main className="snap-y snap-mandatory overflow-y-auto h-screen scroll-smooth">
+      {/* <main> */}
       <Section75 />
       <Section76 />
       <Section77 />
@@ -52,12 +54,13 @@ export default function Home() {
       <Section81 />
       <Section60 />
       <Section61 />
-      {/* TODO 63 add image */}
       <Section63 />
       <Section66 />
       <Section67 />
       <Section69 />
+
       {/* <Section64 /> */}
+
       <Section70 />
       <Section71 />
       <Section72 />

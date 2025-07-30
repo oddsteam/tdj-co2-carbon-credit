@@ -16,7 +16,7 @@ export default function Section43() {
   const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
 
   return (
-    <section className="bg-[linear-gradient(180deg,_#1C1B18_0%,_#393938_100%)] py-16 px-6 text-white h-screen">
+    <section className="bg-[linear-gradient(180deg,_#1C1B18_0%,_#393938_100%)] py-16 px-6 text-white h-screen snap-start">
       <div className="max-w-6xl mx-auto flex flex-col items-center">
         <div className="w-full max-w-2xl text-left">
           <p className="font-ibm-looped text-[16px] leading-[29px] pt-10">ข้อมูล</p>

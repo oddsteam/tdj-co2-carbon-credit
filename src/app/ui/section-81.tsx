@@ -1,6 +1,6 @@
 export default function Section81() {
     return (
-        <section className="w-full md:h-screen sm:h-[100px] bg-[#011F1F] flex items-center justify-center text-white px-6">
+        <section className="w-full h-screen  bg-[#011F1F] flex items-center justify-center text-white px-6 snap-start">
             <div className="max-w-[960px] text-left space-y-6">
                 <h2
                     className="text-[42px] leading-[100%]"

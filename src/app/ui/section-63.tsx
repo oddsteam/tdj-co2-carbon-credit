@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Section63() {
   return (
-    <section className="w-full md:h-[832px] bg-[#011F1F] flex flex-col items-center justify-center text-white px-6 text-center">
-      {/* h2 ชิดซ้าย */}
+    <section className="w-full h-screen bg-[#011F1F] flex flex-col gap-4 items-center justify-center text-white pt-12 px-6 text-center snap-start">
+
       <div className="w-[70%] text-left mb-10">
         <h2
           className="text-[42px] leading-[45px]"
@@ -13,7 +13,7 @@ export default function Section63() {
         </h2>
       </div>
 
-      {/* กล่องเนื้อหาตรงกลาง */}
+
       <div className="w-[70%] flex flex-col items-center space-y-10">
         {/* กราฟ + รูปชาวนา */}
         <div className="relative w-full">

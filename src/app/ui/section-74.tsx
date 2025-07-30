@@ -1,7 +1,7 @@
 export default function Section74() {
     return (
         <section
-            className="w-full min-h-[832px] flex flex-col items-center justify-center text-black text-center space-y-6 px-4"
+            className="w-full h-screen flex flex-col items-center justify-center text-black text-center space-y-6 px-4 snap-start"
             style={{
                 backgroundImage: `radial-gradient(141.95% 85.88% at 51.72% 87.92%, rgba(255, 255, 255, 0.9) 50%, #00201F 100%)`,
                 backgroundRepeat: "no-repeat",
@@ -10,11 +10,7 @@ export default function Section74() {
                 fontFamily: '"IBM Plex Sans Thai Looped", sans-serif'
             }}
         >
-            {/* background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
-linear-gradient(0deg, color(display-p3 1.000 1.000 1.000), color(display-p3 1.000 1.000 1.000)),
-radial-gradient(141.95% 85.88% at 51.72% 87.92%, rgba(255, 255, 255, 0.4) 0%, #00201F 100%);
-radial-gradient(141.95% 85.88% at 51.72% 87.92%, color(display-p3 1.000 1.000 1.000 / 0.4) 0%, color(display-p3 0.004 0.122 0.122) 100%);
- */}
+           
             <div className="max-w-5xl mt-25">
                 <p
                     className="text-[25px] font-normal leading-[38px] text-[#344243]"

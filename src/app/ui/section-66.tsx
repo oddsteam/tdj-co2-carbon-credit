@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function Section66() {
     return (
         <section
-            className="w-full md:h-[632px] sm:h-[100px] flex flex-col items-center justify-center text-white text-center space-y-4"
+            className="w-full h-screen flex flex-col items-center justify-center text-white text-center space-y-4 snap-start"
             style={{
                 background: "linear-gradient(0deg, #393938 0%, #603D2A 53.85%)",
             }}
         >
             <p
-                className="text-[42px] leading-[45px]"
+                className="text-[48px] leading-[45px]"
                 style={{ fontFamily: '"Chonburi", cursive' }}
             >
                 ใครกันที่ได้รับ

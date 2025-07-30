@@ -1,6 +1,6 @@
 export default function Section77() {
   return (
-    <section className="relative w-full md:h-screen">
+    <section className="relative w-full h-screen snap-start">
       <img
         src="/images/hero-3.png"
         alt="Background"

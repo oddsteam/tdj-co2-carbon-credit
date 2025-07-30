@@ -1,7 +1,7 @@
 export default function Section76() {
   return (
     <>
-      <div className="relative w-full md:h-screen overflow-hidden">
+      <div className="relative w-full h-screen overflow-hidden snap-start">
         <img
           src="/images/hero-2.png"
           alt="Background"

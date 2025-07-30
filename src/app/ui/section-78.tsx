@@ -9,7 +9,7 @@ export default function Section78() {
 
   return (
     <section
-      className="w-full bg-[#103A3A] text-white md:h-[832px]"
+      className="w-full h-screen bg-[#103A3A] text-white snap-start"
       style={{
         fontFamily: '"IBM Plex Sans Thai Looped", sans-serif',
       }}
