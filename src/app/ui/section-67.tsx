@@ -15,8 +15,7 @@ interface ModalContent {
 const cards: ModalContent[] = [
   {
     id: 1,
-    title: `คาร์บอนเครดิตไม่ถึงมือชุมชน! ค่าตรวจพุ่ง นายทุนฟัน 80% ชาวบ้านขาดทุนตั้งแต่เริ่ม
-กลุ่มองค์กรภาคประชาสังคมจังหวัดสุรินทร์`,
+    title: `คาร์บอนเครดิตไม่ถึงมือชุมชน! ค่าตรวจพุ่ง นายทุนฟัน 80% ชาวบ้านขาดทุนตั้งแต่เริ่มกลุ่มองค์กรภาคประชาสังคมจังหวัดสุรินทร์ `,
     short: `ออกมาแสดงจุดยืนชัดเจนต่อต้านโครงการคาร์บอนเครดิตในประเทศไทยโดยมองว่าเป็นเพียงเครื่องมือของทุนใหญ่ในการ “ฟอกเขียว” (Greenwashing)...`,
     full: `ออกมาแสดงจุดยืนชัดเจนต่อต้านโครงการคาร์บอนเครดิตในประเทศไทยโดยมองว่าเป็นเพียงเครื่องมือ ของทุนใหญ่ในการ “ฟอกเขียว” (Greenwashing) สร้างภาพลักษณ์รับผิดชอบต่อสิ่งแวดล้อม ทั้งที่ใน ความเป็นจริงยังคงเดินหน้าทำลายธรรมชาติ ผ่านอุตสาหกรรมหนัก เหมืองแร่และระบบอาหารเชิง อุตสาหกรรม ขณะที่ภาคประชาชน โดยเฉพาะเกษตรกรในพื้นที่ป่าสงวนและป่าชุมชน กลับต้องเป็นผู้แบกรับภาระทั้งในด้านต้นทุนและผลกระทบ
    หนึ่งในประเด็นสำคัญที่ถูกวิพากษ์คือ “ค่าใช้จ่าย” ที่สูงเกินจริงในกระบวนการตรวจวัดคาร์บอน เช่น ค่าประเมินพื้นที่ที่สูงถึง 15,000 บาทต่อไร่ ทำให้ชาวบ้าน “ขาดทุนตั้งแต่ยังไม่เริ่มขายเครดิต” ขณะที่โครงสร้างผลประโยชน์กลับเทไปที่นายทุนหรือเจ้าของโครงการที่ได้ถึง 80% ในขณะที่รัฐและชาวบ้านได้เพียง 10% เท่านั้น นำไปสู่ข้อกล่าวหาว่าโครงการนี้เป็นการเอาเปรียบในคราบของ การพัฒนา
@@ -29,8 +28,7 @@ const cards: ModalContent[] = [
   },
   {
     id: 2,
-    title: `ป่าสงวน “คำป่าหลาย” มุกดาหาร รุกป่าชุมชน 600 ไร่ อ้างทำกังหันลม...กราบซื้อที่ดินทำ คาร์บอนเครดิต
-กลุ่มทุนอ้าง “โครงการสีเขียว” ขับไล่ชาวบ้าน`,
+    title: `ป่าสงวน “คำป่าหลาย” มุกดาหาร รุกป่าชุมชน 600 ไร่อ้างทำกังหันลม... กว้านซื้อที่ดินทำ คาร์บอนเครดิตกลุ่มทุนอ้าง  “โครงการสีเขียว” ขับไล่ชาวบ้าน`,
     short: `บทสัมภาษณ์นี้กล่าวถึง บทบาทของ NGO ในการต่อสู้กับโครงการของรัฐและเอกชน ในจังหวัดมุกดาหารและพื้นที่ใกล้เคียง ที่มักอ้างอิงนโยบาย คาร์บอนเครดิต...`,
     full: `บทสัมภาษณ์นี้กล่าวถึง บทบาทของ NGO ในการต่อสู้กับ โครงการของรัฐและเอกชนในจังหวัดมุกดาหาร และพื้นที่ใกล้เคียง ที่มักอ้างอิงนโยบาย คาร์บอนเครดิต และการลดโลกร้อน แต่กลับส่งผลกระทบต่อ วิถีชีวิตและที่ดิน ของชาวบ้าน นายอดิศักดิ์ ตุ้มอ่อน NGO 	ในพื้นที่ได้พูดคุยถึงกรณีการ รุกล้ำพื้นที่ป่าชุมชน และ ที่ดินทำกินของชาวบ้าน เพื่อสร้างโครงการพลังงานลมและปลูกป่า รวมถึงการที่บริษัทเอกชนเข้ามากว้านซื้อพื้นที่เพื่อทำคาร์บอนเครดิต    
            โดยเน้นย้ำถึง ความไม่เป็นธรรมของนโยบาย เหล่านี้ที่เอื้อประโยชน์ให้กับนายทุนมากกว่าประชาชนในพื้นที่ นอกจากนี้ยังมีการกล่าวถึง ความพยายามในการใช้กฎหมาย และการรวมตัวของประชาชนร่วมกับนักวิชาการและองค์กรต่างๆ เพื่อปกป้องสิทธิและทรัพยากรของชุมชน
@@ -73,7 +71,10 @@ export default function Section67() {
               </p>
               <p className="text-sm leading-[160%]">{card.short}</p>
               <button
-                className="mt-2 bg-white text-black rounded-full px-6 py-2 self-start text-sm font-medium"
+                className="mt-2 bg-white text-black rounded-full px-6 py-2 self-center text-sm font-medium"
+                style={{
+                  fontFamily: '"IBM Plex Sans Thai Looped", sans-serif',
+                }}
                 onClick={() => openModal(card.id)}
               >
                 อ่านเพิ่มเติม
@@ -83,30 +84,62 @@ export default function Section67() {
         ))}
       </div>
 
-      {/* Modal */}
       {openId !== null && (
         <div
-          className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center px-4"
-          onClick={closeModal} // กดพื้นหลังเพื่อปิด
+          className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center px-4"
+          onClick={closeModal}
         >
           <div
-            className="bg-white max-w-2xl w-full max-h-[90vh] rounded-xl p-6 overflow-y-auto relative text-black"
-            onClick={(e) => e.stopPropagation()} // ป้องกันปิดเมื่อกดภายใน modal
+            className="bg-[#1c1c1c]/80 text-white max-w-5xl w-full max-h-[90vh] rounded-xl p-6 overflow-y-auto relative shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
           >
             <button
-              className="absolute top-4 right-4 text-gray-500 hover:text-black text-xl"
+              className="absolute top-4 right-4 text-gray-300 hover:text-white text-xl"
               onClick={closeModal}
             >
               ✕
             </button>
-            <h2 className="text-lg font-bold text-[#FF8000] mb-4 whitespace-pre-line">
-              {cards.find((c) => c.id === openId)?.title}
-            </h2>
-            <p className="text-sm leading-[160%] whitespace-pre-line">
+
+            {/* รูปด้านบน */}
+            <div className="relative w-full text-white">
+              <h2
+                className="font-semibold text-center mb-4 pt-4 pb-8"
+                style={{
+                  fontFamily: '"Chakra Petch", sans-serif',
+                  fontSize: "32px",
+                  lineHeight: "100%",
+                  letterSpacing: "-3%",
+                }}
+              >
+                {cards.find((c) => c.id === openId)?.title}
+              </h2>
+
+              <div className="h-[300px]">
+                <Image
+                  src={cards.find((c) => c.id === openId)?.imageModal || ""}
+                  alt="modal-image"
+                  fill
+                  className="object-contain rounded-md"
+                />
+              </div>
+            </div>
+
+
+            <p
+              className="whitespace-pre-line font-medium"
+              style={{
+                fontFamily: '"IBM Plex Sans Thai Looped", sans-serif',
+                fontSize: "20px",
+                lineHeight: "38px",
+                letterSpacing: "0%",
+              }}
+            >
               {cards.find((c) => c.id === openId)?.full}
             </p>
+
           </div>
         </div>
+
       )}
 
     </section>
