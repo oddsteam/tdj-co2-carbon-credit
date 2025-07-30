@@ -57,7 +57,7 @@ export default function Home() {
       <Section66 />
       <Section67 />
       <Section69 />
-      <Section64 />
+      {/* <Section64 /> */}
       <Section70 />
       <Section71 />
       <Section72 />
