@@ -71,9 +71,10 @@ export default function Section67() {
               </p>
               <p className="text-sm leading-[160%]">{card.short}</p>
               <button
-                className="mt-2 bg-white text-black rounded-full px-6 py-2 self-center text-sm font-medium"
+                className="w-[169px] h-[42px] rounded-[20px] px-[30px] py-[10px] bg-white/10 text-white text-sm font-medium cursor-pointer self-center"
                 style={{
                   fontFamily: '"IBM Plex Sans Thai Looped", sans-serif',
+                  boxShadow: "inset 0 0 8px rgba(255,255,255,0.2)",
                 }}
                 onClick={() => openModal(card.id)}
               >
