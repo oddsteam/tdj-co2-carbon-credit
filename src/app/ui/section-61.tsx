@@ -15,10 +15,10 @@ export default function Section61() {
   const currentSrc = tabs.find(tab => tab.key === activeTab)?.flourishSrc ?? "";
 
   return (
-    <section className="w-full md:h-[130vx] bg-[#011F1F] text-white px-8 flex flex-col items-center justify-center space-y-10 snap-start">
-      <div className="max-w-[960px] text-left space-y-6">
+    <section className="w-full h-screen bg-[#011F1F] text-white px-8 flex  items-center justify-center space-y-10 snap-start">
+      <div className="w-1/2 p-6 text-left">
         <p
-          className="text-[16px] leading-[32px]"
+          className="text-[16px] leading-[32px] indent-8"
           style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}
         >
           ปัญหาความคลาดเคลื่อนของข้อมูล พื้นที่ป่าเป็นอีกหนึ่งประเด็นสำคัญที่กระทบต่อความน่าเชื่อถือของระบบการประเมินเครดิต
@@ -28,7 +28,20 @@ export default function Section61() {
           แต่ข้อเท็จจริงเบื้องหลังกลับสะท้อนถึงความไม่ชัดเจนของ “ข้อมูลกลาง” ซึ่งเป็นฐานในการกำหนดนโยบาย
           และวัดผลความสำเร็จด้านสิ่งแวดล้อมของประเทศ
         </p>
-
+        <br />
+        <p
+          className="text-[16px] leading-[32px] indent-8"
+          style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}
+        >
+          หากดูในระดับจังหวัด ความแตกต่างยิ่งชัดเจน ความขัดแย้งของชุดข้อมูลนี้ชี้ให้เห็นถึง{" "}
+          <span className="text-[#3ED304] font-semibold">“ปัญหามาตรฐานกลาง”</span>{" "}
+          ที่ยังไม่ชัดเจน ทั้งในด้านนิยามของพื้นที่ป่าและวิธีการประเมินศักยภาพในการดูดซับคาร์บอน
+          ซึ่งนำไปสู่ข้อเรียกร้องจากภาควิชาการให้มีการปฏิรูปกลไกเหล่านี้อย่างจริงจัง
+          เพื่อจัดทำมาตรฐานกลางที่ตรวจสอบได้ และเพื่อให้ทุกนโยบายที่ต้องอ้างอิงข้อมูลป่าไม้ของไทยนั้น
+          ตั้งอยู่บนพื้นฐานของข้อเท็จจริง
+        </p>
+      </div>
+      <div className="w-1/2 p-6 text-left">
         <div className="w-full h-[600px] bg-white/10 rounded-xl flex items-center justify-center">
           <FlourishEmbed src={currentSrc} />
         </div>
@@ -42,18 +55,6 @@ export default function Section61() {
             />
           ))}
         </div>
-
-        <p
-          className="text-[16px] leading-[32px]"
-          style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}
-        >
-          หากดูในระดับจังหวัด ความแตกต่างยิ่งชัดเจน ความขัดแย้งของชุดข้อมูลนี้ชี้ให้เห็นถึง{" "}
-          <span className="text-[#3ED304] font-semibold">“ปัญหามาตรฐานกลาง”</span>{" "}
-          ที่ยังไม่ชัดเจน ทั้งในด้านนิยามของพื้นที่ป่าและวิธีการประเมินศักยภาพในการดูดซับคาร์บอน
-          ซึ่งนำไปสู่ข้อเรียกร้องจากภาควิชาการให้มีการปฏิรูปกลไกเหล่านี้อย่างจริงจัง
-          เพื่อจัดทำมาตรฐานกลางที่ตรวจสอบได้ และเพื่อให้ทุกนโยบายที่ต้องอ้างอิงข้อมูลป่าไม้ของไทยนั้น
-          ตั้งอยู่บนพื้นฐานของข้อเท็จจริง
-        </p>
       </div>
     </section>
   );
