@@ -5,9 +5,9 @@ import { chonburi, ibm } from "@/fonts";
 import { useState } from "react";
 
 const tabs = [
-    { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/23910886" },
-    { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/23884504" },
-    { key: "tab3", label: "กราฟ3", flourishSrc: "visualisation/24089508" },
+    { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/24432186" },
+    { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/24432188" },
+    { key: "tab3", label: "กราฟ3", flourishSrc: "visualisation/24432189" },
 ];
 
 export default function Section56() {

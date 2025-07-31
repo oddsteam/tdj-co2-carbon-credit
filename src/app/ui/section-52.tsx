@@ -4,8 +4,8 @@ import FlourishEmbed from "@/components/Flourish";
 import { useState } from "react";
 
 const tabs = [
-    { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/23841371" },
-    { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/23930763" },
+    { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/24432013" },
+    { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/24432014" },
 ];
 
 export default function Section52() {

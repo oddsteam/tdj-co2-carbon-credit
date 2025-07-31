@@ -6,10 +6,10 @@ import { chonburi } from "@/fonts";
 import FlourishEmbed from "@/components/Flourish";
 
 const tabs = [
-  { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/22577782" },
-  { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/23409237" },
-  { key: "tab3", label: "กราฟ3", flourishSrc: "visualisation/23409316" },
-  { key: "tab4", label: "กราฟ4", flourishSrc: "visualisation/23409488" },
+  { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/24427410" },
+  { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/24427409" },
+  { key: "tab3", label: "กราฟ3", flourishSrc: "visualisation/24427439" },
+  { key: "tab4", label: "กราฟ4", flourishSrc: "visualisation/24427440" },
 ];
 
 export default function Section45() {

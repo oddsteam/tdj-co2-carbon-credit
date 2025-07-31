@@ -3,9 +3,9 @@ import FlourishEmbed from "@/components/Flourish";
 import { useState } from "react";
 
 const tabs = [
-  { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/23910219" },
-  { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/23858198" },
-  { key: "tab3", label: "กราฟ3", flourishSrc: "visualisation/23858519" },
+  { key: "tab1", label: "กราฟ1", flourishSrc: "visualisation/24432455" },
+  { key: "tab2", label: "กราฟ2", flourishSrc: "visualisation/24432456" },
+  { key: "tab3", label: "กราฟ3", flourishSrc: "visualisation/24432457" },
 ];
 
 
