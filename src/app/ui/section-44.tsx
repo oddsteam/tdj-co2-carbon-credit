@@ -24,7 +24,7 @@ export default function Section44() {
         <h2 className={`${chonburi.className} font-normal text-[42px] leading-[100%] tracking-[0]`}>ผลสืบเนื่องจาก</h2>
         <div className="space-y-4 leading-relaxed text-base pt-10">
           <p className={`${ibm.className} font-normal text-[16px] leading-[31px] tracking-[0.48px] text-white indent-8`}>
-            ภาวะโลกร้อน (Global Warming)<br />ได้สร้างวิกฤติใหญ่เป็นปัญหากระทบกระทบไปทั่วโลกปัจจุบันมีการเปลี่ยนไปใช้คำว่า "โลกเดือด" หรือ "ภาวะโลกเดือด" (Global Boiling) เพื่อเรียกสภาวะที่โลกร้อนขึ้นอย่างรุนแรงและรวดเร็ว กว่าเดิม ซึ่ง
+            ภาวะโลกร้อน (Global Warming)<br />ได้สร้างวิกฤติใหญ่เป็นปัญหากระทบไปทั่วโลกปัจจุบันมีการเปลี่ยนไปใช้คำว่า "โลกเดือด" หรือ "ภาวะโลกเดือด" (Global Boiling) เพื่อเรียกสภาวะที่โลกร้อนขึ้นอย่างรุนแรงและรวดเร็ว กว่าเดิม ซึ่ง
             <span className="font-bold text-[16px] leading-[31px] tracking-[0.48px] text-[#D39A09]"> สาเหตุสำคัญคือการ ปล่อยก๊าซเรือนกระจก</span>  โดยประเทศไทยปล่อยก๊าซเรือนกระจกมากเป็น
             <span className="font-bold text-[16px] leading-[31px] tracking-[0.48px] text-[#D39A09]">อันดับที่ 24 ของโลก</span> จากดัชนี CCPI 2025
           </p>

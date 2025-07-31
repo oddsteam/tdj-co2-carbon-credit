@@ -36,20 +36,15 @@ export default function Section51() {
                         <p>นายทุน รู้หรือไม่......“คาร์บอนเครดิตไทย “ ไม่ผ่านเกณฑ์ EU บทเรียนราคาแพง ต้นทุนจมดิ่ง</p>
                     </div>
 
-                    <div className="flex justify-between items-start mt-10">
-                        {/* <p className="text-[#8FF259] text-[16px] leading-[29px]" style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}>
-                            บริษัทในตลาดหลักทรัพย์ที่ยอมเปิดเผยข้อมูล <br />
-                            ปล่อยก๊าซเรือนกระจก
-                        </p> */}
-
+                    {/* <div className="flex justify-between items-start mt-10">
                         <Image
                             src="/images/set-open-data-blur-text.png"
                             alt="Greenwashing"
                             width={300}
                             height={86}
-                            className="translate-y-10 -translate-x-50"
+                            className="translate-y-10 translate-x-50"
                         />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
