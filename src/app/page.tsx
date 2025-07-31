@@ -29,10 +29,10 @@ import Section80 from "./ui/section-80"
 import Section78 from "@/ui/section-78"
 import SectionCBAM from "./ui/section-cbam"
 import Section81 from "./ui/section-81"
+import SectionMap from "./ui/section-map"
 
 export default function Home() {
   return (
-    // <main className="h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
     <main className="snap-y snap-mandatory overflow-y-auto h-screen scroll-smooth">
       {/* <main> */}
       <Section75 />
@@ -47,6 +47,7 @@ export default function Home() {
       <Section51 />
       <Section52 />
       <Section54 />
+      <SectionMap />
       <SectionCBAM />
       <Section55 />
       <Section56 />
