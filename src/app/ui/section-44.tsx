@@ -19,7 +19,7 @@ export default function Section44() {
 
       />
 
-      <div className="relative z-10 max-w-4xl mx-auto mt-24 p-10 rounded-[50px] backdrop-blur-[62px] bg-black/40 text-white">
+      <div className="relative z-10 max-w-[930px] mx-auto mt-24 p-10 rounded-[50px] backdrop-blur-[62px] bg-black/40 text-white">
         <p className={`${ibm.className} font-normal text-[16px] leading-[29px] tracking-[0] text-white`}>แท้จริงแล้ว</p>
         <h2 className={`${chonburi.className} font-normal text-[42px] leading-[100%] tracking-[0]`}>ผลสืบเนื่องจาก</h2>
         <div className="space-y-4 leading-relaxed text-base pt-10">
@@ -37,7 +37,7 @@ export default function Section44() {
           <p className={`${ibm.className} font-normal text-[16px] leading-[31px] tracking-[0.48px] text-white indent-8`}>
             แต่กลับพบว่า
             <span className="font-bold text-[16px] leading-[31px] tracking-[0.48px] text-[#D39A09]">มีความไม่โปร่งใส</span>
-            ในการเปิดเผยชุดข้อมูลที่เกี่ยวข้องกับการปล่อยและการลด ก๊าซเรือนกระจกใ นหลายพื้นที่ และหลายประเภทซึ่งอาจนำไปสู่วิกฤติใหญ่ในอนาคตทำให้คนไทยต้อง
+            ในการเปิดเผยชุดข้อมูลที่เกี่ยวข้องกับการปล่อยและการลด ก๊าซเรือนกระจกในหลายพื้นที่ และหลายประเภทซึ่งอาจนำไปสู่วิกฤติใหญ่ในอนาคตทำให้คนไทยต้อง
             <span className="font-bold text-[16px] leading-[31px] tracking-[0.48px] text-[#D39A09]">เสี่ยงต่อผลกระทบโลกร้อนมากกว่าเดิมได้ ทั้งจากภัยพิบัติสภาพภูมิอากาศแปรปรวน (Climate change) จากบทลงโทษทางเศรษฐกิจ ผลกระทบต่อภาคการเกษตร ฯลฯ</span>
           </p>
         </div>

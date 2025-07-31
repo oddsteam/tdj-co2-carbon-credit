@@ -24,19 +24,23 @@ export default function Section51() {
                 <div className="w-[72%] flex flex-col pl-10 text-left pt-15">
                     <div className="text-sm leading-7 text-[16px] leading-[29px]" style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}>
                         <p>
-                            บริษัทในตลาดหลักทรัพย์เพียง 63 บริษัท ในปี 2567 และ ปี 2568 (30 เมษายน) เพียง 245 บริษัท จากทั้งหมด 922 บริษัทที่ยอมเปิดข้อมูลปล่อยก๊าซเรือนกระจก
+                            บริษัทในตลาดหลักทรัพย์เพียง 63 บริษัท ในปี 2567 และ ปี 2568 (30 เมษายน)<br/>
+                            <span className="font-bold text-[16px]">เพียง 245 บริษัท </span>
+                            จากทั้งหมด 922 บริษัทที่ยอมเปิดข้อมูลปล่อยก๊าซเรือนกระจก
                         </p>
+                        <br/>
                         <p>บริษัทยักษ์  ....  ใช้วิธีไหนลด + ชดเชยการปล่อยก๊าซเรือนกระจก</p>
+                        <br/>
                         <p>นายทุนใหญ่ ...  ลับ ลวง พราง ข้อมูลซื้อขาย”คาร์บอนเครดิต” (Carbon Credit) อย่างไร</p>
                         <p>ไทยแลนด์...   กำลังโดนเก็บ “ภาษีคาร์บอนข้ามพรมแดน” ฉบับแรกของโลกจากอียู (CBAM)</p>
                         <p>นายทุน รู้หรือไม่......“คาร์บอนเครดิตไทย “ ไม่ผ่านเกณฑ์ EU บทเรียนราคาแพง ต้นทุนจมดิ่ง</p>
                     </div>
 
                     <div className="flex justify-between items-start mt-10">
-                        <p className="text-[#8FF259] text-[16px] leading-[29px]" style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}>
+                        {/* <p className="text-[#8FF259] text-[16px] leading-[29px]" style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}>
                             บริษัทในตลาดหลักทรัพย์ที่ยอมเปิดเผยข้อมูล <br />
                             ปล่อยก๊าซเรือนกระจก
-                        </p>
+                        </p> */}
 
                         <Image
                             src="/images/set-open-data-blur-text.png"

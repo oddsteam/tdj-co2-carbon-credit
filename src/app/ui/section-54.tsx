@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ibm } from "@/fonts";
+import { chonburi, ibm } from "@/fonts";
 
 const projectData = [
   {
@@ -41,8 +41,9 @@ export default function SectionForestChart() {
 
   return (
     <section className="w-full h-screen bg-[#011F1F] flex flex-col items-center justify-center text-white text-center space-y-10 px-4 snap-start">
+      <p className={`${ibm.className} font-bold text-[32px] leading-[100%] tracking-[-1%]`}>เมื่อนำมาเปรียบเทียบข้อมูลของบริษัทใหญ่ในตลาดหลักทรัพย์ที่ให้ข้อมูลอย่างโปร่งใส </p>
       <p
-        className={`${ibm.className} font-bold text-[46px] leading-[100%] tracking-[-1%]`}
+        className={`${chonburi.className} font-bold text-[46px] leading-[100%] tracking-[-1%]`}
       >
         โครงการคาร์บอนเครดิตภาคป่าไม้ <br />
         110 โครงการ พบว่า
@@ -57,6 +58,17 @@ export default function SectionForestChart() {
             <div key={org.name} className="flex flex-col items-center gap-3">
               <div className="flex gap-1 items-end h-[200px]">
                 <div className="flex flex-col items-center">
+
+                  <span className="text-xs mb-1 whitespace-nowrap leading-tight">
+                    {org.projectCount} โครงการ <br />
+                    พื้นที่ {org.areaTotal.toLocaleString()} ไร่
+                  </span>
+                  <div
+                    className="w-[41px] bg-[#305F39]"
+                    style={{ height: `${totalHeight}px` }}
+                  />
+                </div>
+                <div className="flex flex-col items-center">
                   <span className="text-xs mb-1 whitespace-nowrap leading-tight">
                     พื้นที่ปลูกป่า <br />
                     {org.areaForest.toLocaleString()} ไร่
@@ -67,16 +79,7 @@ export default function SectionForestChart() {
                   />
                 </div>
 
-                <div className="flex flex-col items-center">
-                  <span className="text-xs mb-1 whitespace-nowrap leading-tight">
-                    {org.projectCount} โครงการ <br />
-                    พื้นที่ {org.areaTotal.toLocaleString()} ไร่
-                  </span>
-                  <div
-                    className="w-[41px] bg-[#305F39]"
-                    style={{ height: `${totalHeight}px` }}
-                  />
-                </div>
+
               </div>
 
               {/* Logo */}

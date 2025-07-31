@@ -19,7 +19,10 @@ export default function Section56() {
             <div className="flex-0 h-[30%] flex items-center justify-center">
                 <div className="w-[1112px] h-[220px] bg-[#17332A] rounded-tr-[100px] rounded-bl-[100px] mx-auto flex flex-col md:flex-row justify-center px-10 py-4">
                     <div className="w-full md:w-2/6 text-lg md:text-xl text-left ">
-                        <div className={`mb-1 ${ibm.className} text-[16px] leading-[29px] font-normal`}>คนไทย</div>
+                        <div className="mb-1 text-[20px] leading-[29px] font-normal"
+                            style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}>
+                            คนไทย
+                        </div>
                         <div className={`${chonburi.className} text-[42px] leading-[100%] font-normal`}>รู้ไหมว่า ?</div>
                     </div>
 
@@ -33,7 +36,7 @@ export default function Section56() {
                                 <li>พื้นที่สีเขียวในเป้าหมายยุทธศาสตร์ชาติ ต้องเพิ่มขึ้นเป็น 55%</li>
                                 <li>คาร์บอนเครดิต ไม่ได้เพิ่มพื้นที่ป่าเขียว</li>
                                 <li>ผลประโยชน์ 70:20:10 เอกชนได้ 70% (ป่าชุมชนและป่าชายเลน)</li>
-                                <li>ผลประโยชน์ 90:10 เอกชนได้ 90% (ป่าสงวน)</li>
+                                <li>ผลประโยชน์ 90:10 เอกชนได้ 90% (ป่าสงวนฯ)</li>
                             </ul>
                         </div>
                     </div>

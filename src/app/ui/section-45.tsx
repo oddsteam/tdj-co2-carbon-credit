@@ -34,8 +34,8 @@ export default function Section45() {
 
               <div className="w-full md:w-4/6 text-sm md:text-base leading-relaxed">
                 <p className={`${ibm.className} text-[16px] leading-[29px] font-normal pt-5`}>
-                  คาร์บอนเครดิตจากป่าไม้...ปลูกป่า “ชดเชย” ดูดซับคาร์บอนดีที่สุด<br />
-                  กลไกฟอกเขียว (Greenwashing) ต้นไม้ไม่งับปล่องควันคาร์บอน
+                  คาร์บอนเครดิตภาคป่าไม้....ปลูกป่า “ชดเชย” ดูดซับคาร์บอนดีที่สุด<br/>
+กลไกฟอกเขียว (Greenwashing) ต้นไม้บังปล่องควันคาร์บอน
                 </p>
               </div>
 
