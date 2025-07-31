@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Section64() {
   return (
-    <section className="w-full aspect-[2560/3872] relative">
+    <section className="w-full aspect-[1280/1654] relative snap-start">
       <Image
-        src="/images/canbon-credit-scam.png"
+        src="/images/carbon-magic.png"
         alt="carbon-scam"
         fill
         className="object-contain"

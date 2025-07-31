@@ -30,6 +30,8 @@ import Section78 from "@/ui/section-78"
 import SectionCBAM from "./ui/section-cbam"
 import Section81 from "./ui/section-81"
 import SectionMap from "./ui/section-map"
+import SectionCompare from "./ui/section-compare-rule"
+import SectionGlobalWarnigAct from "./ui/section-global-warning-act"
 
 export default function Home() {
   return (
@@ -60,11 +62,14 @@ export default function Home() {
       <Section67 />
       <Section69 />
 
-      {/* <Section64 /> */}
+      <Section64 />
 
       <Section70 />
-      <Section71 />
-      <Section72 />
+      {/* <Section71 /> */}
+      <SectionGlobalWarnigAct />
+
+      <SectionCompare />
+      {/* <Section72 /> */}
       <Section79 />
       <Section74 />
       <Section80 />
