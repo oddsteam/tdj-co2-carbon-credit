@@ -150,9 +150,13 @@ export default function Section78() {
               <p className="indent-8">https://www.dcce.go.th/4335/https://www.ilaw.or.th/articles/49357https://sdfthai.org/prb-climate-change/</p>
               <p className="indent-8">https://www.bangkokbiznews.com/environment/1177784</p>
               <p className="indent-8">https://hub.mnre.go.th/th/knowledge/detail/63468</p>
+              <p className="indent-8">https://www.un.org/en/climatechange/science/climate-issues/greenwashing</p>
+              <p className="indent-8">https://www.techtarget.com/whatis/definition/greenwashing</p>
+              <p className="indent-8">https://www.khoksaad.go.th/fileupload/020820_182759.pdf</p>
+              <p className="indent-8">https://ghgreduction.tgo.or.th/th/about-tver/ask-answer-tver/item/2105-t-ver.html</p>
             </div>
-                      </div>
-                    </div>
+          </div>
+        </div>
       )}
     </section>
   );
