@@ -51,13 +51,13 @@ export default function SectionForestChart() {
 
       <div className="flex justify-center gap-12 flex-wrap">
         {projectData.map((org) => {
-          const totalHeight = (org.areaTotal / maxArea) * 150;
-          const forestHeight = (org.areaForest / maxArea) * 150;
+          const totalHeight = (org.areaTotal / maxArea) * 250;
+          const forestHeight = (org.areaForest / maxArea) * 200;
 
           return (
             <div key={org.name} className="flex flex-col items-center gap-3">
               <div className="flex gap-1 items-end h-[200px]">
-                <div className="flex flex-col items-center">
+                {/* <div className="flex flex-col items-center">
 
                   <span className="text-xs mb-1 whitespace-nowrap leading-tight">
                     {org.projectCount} โครงการ <br />
@@ -67,14 +67,13 @@ export default function SectionForestChart() {
                     className="w-[41px] bg-[#305F39]"
                     style={{ height: `${totalHeight}px` }}
                   />
-                </div>
+                </div> */}
                 <div className="flex flex-col items-center">
-                  <span className="text-xs mb-1 whitespace-nowrap leading-tight">
-                    พื้นที่ปลูกป่า <br />
+                  <span className="text-s mb-1 whitespace-nowrap leading-tight pb-3">
                     {org.areaForest.toLocaleString()} ไร่
                   </span>
                   <div
-                    className="w-[41px] bg-[#9CEA7F]"
+                    className="w-[160px] bg-[#9CEA7F]"
                     style={{ height: `${forestHeight}px` }}
                   />
                 </div>
@@ -91,6 +90,9 @@ export default function SectionForestChart() {
                   className="object-contain rounded-full bg-white p-2"
                 />
               </div>
+              <span className="text-s mb-1 whitespace-nowrap leading-tight pt-3">
+                    {org.projectCount} โครงการ <br />
+                  </span>
             </div>
           );
         })}
