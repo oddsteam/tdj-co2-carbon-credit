@@ -32,6 +32,7 @@ import Section81 from "./ui/section-81"
 import SectionMap from "./ui/section-map"
 import SectionCompare from "./ui/section-compare-rule"
 import SectionGlobalWarnigAct from "./ui/section-global-warning-act"
+import Section82 from "./ui/section-82"
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
       <Section77 />
       <Section43 />
       <Section44 />
+      <Section82 />
       <Section45 />
       <Section46 />
       <Section48 />
