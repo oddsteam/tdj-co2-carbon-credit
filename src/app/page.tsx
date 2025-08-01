@@ -72,7 +72,7 @@ export default function Home() {
 
       <SectionCompare />
       {/* <Section72 /> */}
-      <Section79 />
+      {/* <Section79 /> */}
       <Section74 />
       <Section80 />
       <Section78 />
