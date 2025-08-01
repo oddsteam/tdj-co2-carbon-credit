@@ -55,7 +55,7 @@ export default function Section63() {
           className="text-[14px] text-white/70"
           style={{ fontFamily: '"IBM Plex Sans Thai Looped", sans-serif' }}
         >
-          แหล่งอ้างอิงข้อมูล : <span className="text-red-500">xxxxx</span>
+          แหล่งอ้างอิงข้อมูล : <span className="text-red-500">ระเบียบกรมป่าไม้ ว่าด้วยการแบ่งปันคาร์บอนเครดิตจากการปลูก บำรุง อนุรักษ์ และฟื้นฟูป่าในพื้นที่ป่าไม้ พ.ศ. 2567</span>
         </p>
 
         {/* ข้อความอธิบายล่าง */}
