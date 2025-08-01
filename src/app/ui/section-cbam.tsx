@@ -26,8 +26,7 @@ export default function SectionCBAM() {
                 >
                     หากไม่สามารถรายงานการปล่อยก๊าซเรือนกระจกได้ตามมาตรฐานที่ยุโรปกำหนด มาตรการ CBAM มีเป้าหมายชัดเจนในการป้องกัน “การรั่วไหลของคาร์บอน” จากการนำเข้าสินค้าจากประเทศที่ไม่มีนโยบายสิ่งแวดล้อมเข้มงวดเท่าภายใน EU โดยการคำนวณภาษีจะอิงจากข้อมูลการปล่อยคาร์บอนตลอดวงจรชีวิตของผลิตภัณฑ์ (Life Cycle Assessment: LCA)
                 </p>
-                <div className="flex justify-ce
-                nter self-center">
+                <div className="flex justify-center self-center">
                     <button
                         className="w-[169px] h-[58px] rounded-[20px] px-[30px] py-[10px] bg-white/10 text-white text-sm font-medium cursor-pointer"
                         style={{
