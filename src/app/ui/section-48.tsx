@@ -15,7 +15,7 @@ export default function Section48() {
                     <div className="w-[164px] h-[164px] relative rounded-full overflow-hidden">
                         <Image src="/images/person/sonti.png" alt="speaker" fill className="object-cover" />
                     </div>
-                    <div className="pl-5">
+                    <div className="pl-5 text-white">
                         <p className={`${ibm.className} font-bold text-[20px] leading-none`}>บทสัมภาษณ์</p>
                         <p className={`${chonburi.className} pt-3 font-normal text-[32px] leading-none`}>สนธิ คชรัตน์</p>
                     </div>
@@ -67,7 +67,7 @@ export default function Section48() {
                             <div className="w-[164px] h-[164px] relative rounded-full overflow-hidden">
                                 <Image src="/images/person/sonti.png" alt="speaker" fill className="object-cover" />
                             </div>
-                            <div className="pl-5">
+                            <div className="pl-5 text-white">
                                 <p className={`${ibm.className} font-bold text-[20px] leading-none`}>บทสัมภาษณ์</p>
                                 <p className={`${chonburi.className} pt-3 font-normal text-[32px] leading-none`}>สนธิ คชรัตน์</p>
                             </div>
